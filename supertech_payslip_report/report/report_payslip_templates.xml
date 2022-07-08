@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_supertech_payslip">
+        <div class="page" style="border: 1px solid black;font-size: 12px;">
+            <div class="row">
+                <div class="col-2 mb4">
+                    <img t-if="o.company_id.logo" t-att-src="image_data_uri(o.company_id.logo)" alt="Logo" style="width: 150px;max-height: 150px;"/>
+                </div>
+                <div class="col-9 text-center" style="margin-top:22px;margin-left:-52px">
+                    <p style="font-size: 14px;"><b>ENVIRONMENTAL PROTECTION AGENCY</b></p>
+                    <p>91 STARLETS ROAD</p>
+                    <p>P.O BOX M236</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p style="font-size: 14px;"><b><u>PAYSLIP</u></b></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 text-right">
+                    Employee ID :
+                </div>
+                <div class="col-3 text-left">
+                    PAYSLIP
+                </div>
+                <div class="col-3 text-right">
+                    Month :
+                </div>
+                <div class="col-3 text-left">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 text-right">
+                    Name :
+                </div>
+                <div class="col-3 text-left">
+
+                </div>
+                <div class="col-3 text-right">
+                    Job Location :
+                </div>
+                <div class="col-3 text-left">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 text-right">
+                    Department :
+                </div>
+                <div class="col-3 text-left">
+
+                </div>
+                <div class="col-3 text-right">
+                    SSF Number :
+                </div>
+                <div class="col-3 text-left">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 text-right">
+                    Job Title :
+                </div>
+                <div class="col-3 text-left">
+
+                </div>
+                <div class="col-3 text-right">
+                    Staff Category :
+                </div>
+                <div class="col-3 text-left">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 text-right">
+                    Level :
+                </div>
+                <div class="col-3 text-left">
+
+                </div>
+                <div class="col-3 text-right">
+                    Notch :
+                </div>
+                <div class="col-3 text-left">
+
+                </div>
+            </div>
+            <div style="border-bottom: 1px solid black;"></div>
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th style="min-width: 300px;"><b><u><i>DESCRIPTION</i></u></b></th>
+                        <th><b><u><i>PAYMENTS</i></u></b></th>
+                        <th><b><u><i>DEDUCTIONS</i></u></b></th>
+                        <th><b><u><i>LOAN BALANCE</i></u></b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr style="border: 1px solid black;">
+                        <td><b>Totals:</b></td>
+                        <td><b></b></td>
+                        <td><b></b></td>
+                        <td><b></b></td>
+                    </tr>
+                </tfoot>
+            </table>
+            <br/>
+            <div class="row">
+                <div class="col-4 text-right">
+                </div>
+                <div class="col-4 text-center" style="border: 1px solid black;">
+                    <p style="font-size: 14px;"><b>NET SALARY</b></p>
+                    <p style="font-size: 14px;"><b></b></p>
+                </div>
+                <div class="col-4 text-right">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p style="font-size: 14px;"><b><u>TAX ANALYSIS</u></b></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <b></b>
+                </div>
+                <div class="col-2 text-left">
+                    <b>Taxable Earning</b>
+                </div>
+                <div class="col-1 text-left">
+                    <b>:</b>
+                </div>
+                <div class="col-2 text-right">
+                    <b></b>
+                </div>
+                <div class="col-2 text-left">
+                    <b>Income Tax(Normal)</b>
+                </div>
+                <div class="col-1 text-left">
+                    <b>:</b>
+                </div>
+                <div class="col-2 text-right">
+                    <b></b>
+                </div>
+                <div class="col-1">
+                    <b></b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <b></b>
+                </div>
+                <div class="col-2 text-left">
+                    <b>Tax Relief</b>
+                </div>
+                <div class="col-1 text-left">
+                    <b>:</b>
+                </div>
+                <div class="col-2 text-right">
+                    <b></b>
+                </div>
+                <div class="col-2 text-left">
+                    <b>Income Tax(Bonus)</b>
+                </div>
+                <div class="col-1 text-left">
+                    <b>:</b>
+                </div>
+                <div class="col-2 text-right">
+                    <b></b>
+                </div>
+                <div class="col-1">
+                    <b></b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <b></b>
+                </div>
+                <div class="col-2 text-left">
+                    <b></b>
+                </div>
+                <div class="col-1 text-left">
+                    <b></b>
+                </div>
+                <div class="col-2 text-right">
+                    <b></b>
+                </div>
+                <div class="col-2 text-left">
+                    <b>Income Tax(Total)</b>
+                </div>
+                <div class="col-1 text-left">
+                    <b>:</b>
+                </div>
+                <div class="col-2 text-right">
+                    <b></b>
+                </div>
+                <div class="col-1">
+                    <b></b>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p style="font-size: 14px;"><b><u>CONTRIBUTION STATEMENT</u></b></p>
+                </div>
+            </div>
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th><b><u><i>Item</i></u></b></th>
+                        <th><b><u><i>Employee's Contr.</i></u></b></th>
+                        <th><b><u><i>Employer's Contr.</i></u></b></th>
+                        <th><b><u><i>Total Contri</i></u></b></th>
+                        <th><b><u><i>Opening Bal.</i></u></b></th>
+                        <th><b><u><i>Total Withdrawal</i></u></b></th>
+                        <th><b><u><i>Grand Total</i></u></b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Provident Fund(Non Taxable)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Provident Fund(Taxable)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th><b><u><i>Item</i></u></b></th>
+                        <th><b><u><i>Employee's Contr.</i></u></b></th>
+                        <th><b><u><i>Employer's Contr.</i></u></b></th>
+                        <th><b><u><i>Total Contribution</i></u></b></th>
+                        <th><b><u><i>1st </i></u></b></th>
+                        <th><b><u><i>2nd Tier</i></u></b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="border-style:double;border-bottom: 3px solid black; "></div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p style="font-size: 14px;"><b><u>BANK DETAILS</u></b></p>
+                </div>
+            </div>
+            <table class="table table-borderless">
+                <thead>
+                    <tr>
+                        <th style="min-width: 300px;"><b><u><i>Bank</i></u></b></th>
+                        <th><b><u><i>Acct No</i></u></b></th>
+                        <th><b><u><i>Amount</i></u></b></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </template>
+
+    <template id="report_supertech_payslip_lang">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="web.basic_layout">
+                <t t-call="supertech_payslip_report.report_supertech_payslip"
+                   t-lang="o.employee_id.sudo().address_home_id.lang"/>
+                <p style="page-break-after: always;"/>
+            </t>
+        </t>
+    </template>
+</odoo>
